@@ -9,8 +9,6 @@ fetch(url + coins)
     //retornar os valores obtidos
     .then(function(data){
         const dolarReal = data.USDBRL
-        const euroReal = data.EURBRL
-
         //formatação da data
         //let estaData = new Date(dolarReal.create_date)
 
@@ -26,5 +24,5 @@ fetch(url + coins)
         document.getElementById('minvalue').innerHTML = parseFloat(dolarReal.high).toLocaleString('pt-br',{
             style: 'currency',
             currency: 'BRL'
-        })        
+        }) 
     })
