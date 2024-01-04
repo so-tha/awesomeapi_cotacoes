@@ -3,23 +3,22 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
-    background-color: #333;
-    color: #ccc;
+    background-color: #ffffff;
+    color: #585656;
+
 }
 
 h1 {
-    background-color: #FF0;
-    color: #333;
-    padding: 1rem;
+    color: #353535;
+
+    
 }
 
 h2 {
-    color: yellow;
-    text-shadow: 0.1rem 0.1rem 0.2rem black;
+    color: rgb(44, 44, 43);
 }
 
 p {
-    margin: 0.5rem 1rem;
     font-size: 1.1rem;
 }
 
