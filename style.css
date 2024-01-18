@@ -5,7 +5,7 @@ html, body {
     font-size: 100%;
     background-color: #ffffff;
     color: #585656;
-
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -47,6 +47,7 @@ p {
   touch-action: manipulation;
   width: 15%;
   will-change: transform;
+
 }
 
 .button-27:disabled {
